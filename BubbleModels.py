@@ -403,7 +403,7 @@ def Gilmore(R0_in, v0_in, Requ, \
 
     # Compute vapour pressure using liquid temperature T_l
     pvapour_in = get_vapour_pressure(T_l)
-    print "pv = ", pvapour_in
+    print("pv = {}".format(pvapour_in))
 
     # scale initial conditions and parameters
     set_scale(Requ)
@@ -489,7 +489,7 @@ def Gilmore_ode(R0_in, v0_in, Requ, \
 
     # Compute vapour pressure using liquid temperature T_l
     pvapour_in = get_vapour_pressure(T_l)
-    print "pv = ", pvapour_in
+    print("pv = {}".format(pvapour_in))
 
     # scale initial conditions and parameters
     set_scale(t0, Requ)
@@ -629,7 +629,7 @@ def GilmoreEick_ode(R0_in, v0_in, Requ, \
 
     # Compute vapour pressure using liquid temperature T_l
     pvapour_in = get_vapour_pressure(T_l)
-    print "pv = ", pvapour_in
+    print("pv = {}".format(pvapour_in))
 
     # scale initial conditions and parameters
     set_scale(t0, Requ)
